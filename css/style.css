@@ -1,0 +1,110 @@
+/* Headter  */
+body{
+    margin: 0px;
+}
+.header{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    position: relative;
+    z-index: 800;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+/* logo */
+.logo{
+    width: 50px;
+    height: 60px;
+}
+.logobox>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.romi{
+    width: 20rem;
+}
+
+.headlogo{
+    display: flex;
+}
+/* navbar */
+.headnav,.navbox{
+    display: flex;
+    flex-direction: row;
+}
+.nav{
+    margin:15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav a{
+    color: rgb(158, 154, 154);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* right tab */
+.headright{
+    display: flex;
+}
+.rightbox{
+    display: flex;
+    align-items: center;
+}
+.tradebox{
+    width: 6rem;
+    padding: 5px;
+}
+.ethbox{
+    width: 6rem;
+    display: flex;
+   justify-content: center;
+}
+.trade a,.wallet a{
+    text-decoration: none;
+    color: white;
+}
+.trade{
+    background-color: #3eb489;
+    padding: 5px;
+    font-size: 1.2rem;
+    margin: 8px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wallet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 9rem;
+    border: 1px solid rgb(158, 154, 154);
+    border-radius: 3px;
+    margin-left: 12px;
+    height: 2.2rem;
+    margin-right: 12px  ;
+}
+
+.break{
+    height: 1.2rem;
+    background-color: rgb(158, 154, 154);
+    width: 1px;
+}
+.eth{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    border: 1px solid rgb(158, 154, 154);
+    border-radius: 3px;
+    align-items: center;
+    width: 4rem;
+    height: 1.8rem;
+}
+

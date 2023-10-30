@@ -1,0 +1,47 @@
+.stakev2card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem
+}
+
+.app-card-options {
+    padding: unset;
+    margin: -0.62rem;
+}
+
+.app-card-bottom-placeholder {
+    visibility: hidden;
+}
+
+.app-card-bottom-placeholder .app-card-divider, .app-card-bottom .app-card-divider {
+    margin-bottom: 1.8rem;
+}
+
+a.app-button-option, button.app-button-option {
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 36px;
+    display: inline-flex!important;
+    align-items: center;
+    border: none;
+    background: #3eb489;
+}
+
+.Tab-title-section {
+    padding: 3.1rem 0 0;
+    margin-bottom: 2.4rem;
+}
+.Tab-title-section a{
+    color: #b7b7bd;
+}
+

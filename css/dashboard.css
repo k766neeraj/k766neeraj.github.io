@@ -1,0 +1,257 @@
+body{
+    background-color: #111111;
+    color: white;
+}
+.dashboardbox{
+    min-height: calc(100vh - 62px);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5.65rem;
+    padding-top: 4.65rem;
+    max-width: 126.4rem;
+    padding-left: 11.2rem;
+    padding-right: 3.2rem;
+    margin: 0 auto;
+}
+
+.section-title{
+    display: flex;
+    margin-bottom: 2.325rem;
+    max-width: 58.4rem;
+    width: 100%;
+}
+.section-title-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.title-page{
+    font-size: 2.6rem;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+    color: white;
+}
+
+.title-page-description{
+    color: #b7b7bd;
+    line-height: 2.15rem;
+    font-size: 1.2rem;
+}
+
+.dashboard-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
+    margin-top: 0.8rem;
+}
+
+.app-card{
+    padding: 1.5rem 1.5rem 1.86rem;
+    border: 1px solid #4d4d4e;
+    border-radius: 0.4rem;
+    font-size: 1.1rem
+}
+.app-card-title{
+    font-size: 1.4rem;
+    line-height: 0.1rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.app-card-divider{
+    height: 1px;
+    background: #4d4d4e;
+    margin: 1.05rem -1.5rem;
+}
+
+.app-card-content{
+    display: grid;
+    grid-row-gap: 0.8rem;
+}
+
+.app-card-row{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-column-gap: 1.5rem;
+    padding: unset;
+}
+
+.app-card-row>div:last-child{
+    text-align: right
+}
+
+.label{
+    
+    color: rgb(158, 154, 154);
+    font-size: 1.2rem;
+}
+
+.toolkit{
+    position: relative;
+}
+
+.toolkit-handle{
+    color: white;
+    cursor: help;
+    position: relative;
+    display: inline-flex;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    text-decoration-color: hsla(0,0%,100%,.6)
+}
+.dashboard-token-card{
+    margin-top: 0.8rem;
+}
+.dashboard-outerbox-token{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.dashboard-outerbox-token .app-card{
+    
+    display: flex;
+}
+.stats-block{
+    width: 100%;
+}
+
+.stats-piechart{
+    margin: -1rem -1rem -1rem 1.5rem
+}
+
+.App-card-title-mark{
+    display: flex;
+}
+
+.App-card-title-mark-title{
+    font-size: 1.2rem;
+    line-height: 2.1rem;
+    letter-spacing: 0;
+    color: #fff;
+}
+
+.App-card-title-mark-subtitle{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    letter-spacing: 0;
+    color: #a9a9b0;
+}
+
+.drop-down{
+    margin-left: 0.8rem;
+    cursor: pointer;
+    color: #fff;
+    opacity: .8;
+}
+.token-table-wrapper{
+    text-align: left;
+}
+
+.token-table-wrapper .App-card-title{
+    justify-content: unset;
+}
+
+.token-table-wrapper .app-card-title img{
+    margin-top: 0.3rem;
+    display: inline-flex;
+    margin-left: 0.8rem;
+}
+
+.token-table{
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    width: calc(100% + 3.1rem);
+    border-spacing: 0;
+    white-space: nowrap;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.token-table td:first-child, .token-table th:first-child {
+    padding-left: 1.5rem;
+    width: 26.35rem
+
+}
+
+.token-table th{
+    font-weight: 400;
+    letter-spacing: .25px;
+    color: #a9a9b0;
+    text-transform: uppercase;
+}
+
+.token-table td, .token-table th{
+    padding: 1.1625rem
+}
+
+.token-table .token-symbol-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 4.65rem;
+}
+
+.App-card-title-info {
+    display: flex;
+}
+.App-card-title-info-icon {
+    display: flex;
+    margin-right: 0.8rem;
+}
+.App-card-info-title {
+    font-size: 1.2rem;
+    line-height: 2.1rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff;
+}
+
+.App-card-info-subtitle {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #a9a9b0;
+}
+
+.dropdown-arrow {
+    margin-left: 0.8rem;
+    cursor: pointer;
+    color: #fff;
+    opacity: .8;
+}
+.center-both {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.token-table td {
+    letter-spacing: .25px;
+    color: hsla(0,0%,100%,.8705882352941177);
+}
+
+.tooltip{
+    position: relative;
+}
+
+.tooltip-handle{
+    color: white;
+    cursor: help;
+    position: relative;
+    display: inline-flex;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    text-decoration-color: hsla(0,0%,100%,.6)
+}

@@ -1,0 +1,54 @@
+.footer-wrapper{
+    text-align: center;
+    padding-top: 4rem;
+    background: #151515;
+    width: 100vw;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    height: 20rem;
+    bottom: 0;
+    border-top: 1px solid #4d4d4e
+}
+
+.footerlogo{
+    margin-bottom: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerlogo img{
+    height: 4.65rem;
+}
+
+.footer-social{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 2.4rem;
+}
+
+.social{
+    margin: 0 3.2rem;
+    display: flex;
+    width: 3.2rem;
+    height: 3.2rem;
+    align-items: center;
+    justify-content: center;
+}
+.referral {
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.referralink {
+    color: #e6e6ea;
+    font-size: 1.5rem;
+    line-height: 1.85rem;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+}
+.referral>a:not(:last-child) {
+    padding-right: 2rem;
+}
